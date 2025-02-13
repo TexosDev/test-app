@@ -1,0 +1,23 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src:
+    local('Alegreya Sans'),
+    url('@/assets/fonts/AlegreyaSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('@/assets/fonts/AlegreyaSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
